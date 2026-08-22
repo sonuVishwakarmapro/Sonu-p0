@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #050505;
+    color: #e4e4e7;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Bento Grid styling utilities */
+.bento-card {
+  background-color: #0D0D0F;
+  border: 1px solid #27272a;
+  border-radius: 1.5rem;
+}
+
+.bento-card-subtle {
+  background-color: #111114;
+  border: 1px solid #27272a;
+  border-radius: 1.5rem;
+}
+
+/* Subtle visual backdrop grid */
+.bg-grid-subtle {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+/* Glow effects */
+.glow-blue {
+  box-shadow: 0 0 60px -10px rgba(37, 99, 255, 0.25);
+}
+
+.glow-peach {
+  box-shadow: 0 0 60px -10px rgba(255, 138, 91, 0.25);
+}
+

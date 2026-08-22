@@ -1,0 +1,6 @@
+{
+  "name": "Video Editor Portfolio",
+  "description": "A premium, cinematic personal portfolio website for a freelance video editor specializing in YouTube, short-form content, motion graphics, and sound design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
